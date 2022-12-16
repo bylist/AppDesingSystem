@@ -7,11 +7,11 @@ public extension Color {
     /// Xcode's autocomplete allows for easy discovery of design system colors.
     /// At any call site that requires a color, type `Color.DesignSystem.<esc>`
     struct DesignSystem {
-        public static let primary100 = Color(red: 0.9882352948188782, green: 0.6745098233222961, blue: 0.30980393290519714, opacity: 1)
-        public static let primary70 = Color(red: 0.9960784316062927, green: 0.8392156958580017, blue: 0.6627451181411743, opacity: 1)
-        public static let primary50 = Color(red: 0.9960784316062927, green: 0.9176470637321472, blue: 0.8274509906768799, opacity: 1)
-        public static let primary10 = Color(red: 1, green: 0.9686274528503418, blue: 0.929411768913269, opacity: 1)
-        public static let primary20 = Color(red: 0.9960784316062927, green: 0.9333333373069763, blue: 0.8627451062202454, opacity: 1)
+        public static let primary100 = Color(red: 0.4986228942871094, green: 0.4923437237739563, blue: 0.5708333253860474, opacity: 1)
+        public static let primary70 = Color(red: 0.49803921580314636, green: 0.4941176474094391, blue: 0.572549045085907, opacity: 0.699999988079071)
+        public static let primary50 = Color(red: 0.49803921580314636, green: 0.4941176474094391, blue: 0.572549045085907, opacity: 0.5)
+        public static let primary10 = Color(red: 0.49803921580314636, green: 0.4941176474094391, blue: 0.572549045085907, opacity: 0.699999988079071)
+        public static let primary20 = Color(red: 0.49803921580314636, green: 0.4941176474094391, blue: 0.572549045085907, opacity: 0.20000000298023224)
         public static let secondary100 = Color(red: 0.14509804546833038, green: 0.4156862795352936, blue: 0.40392157435417175, opacity: 1)
         public static let secondary70 = Color(red: 0.572549045085907, green: 0.7058823704719543, blue: 0.7019608020782471, opacity: 1)
         public static let secondary50 = Color(red: 0.572549045085907, green: 0.7058823704719543, blue: 0.7019608020782471, opacity: 1)
